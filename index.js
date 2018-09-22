@@ -1,4 +1,3 @@
-
 function initForm() {
   var formTemplate = document.getElementById("recipe-form-template").innerHTML
   var template = Handlebars.compile(formTemplate)
@@ -60,7 +59,7 @@ function handlebarsSetup() {
 
 
 function init() {
- // put any page initialization/handlebars initialization here
+  //put any page initialization/handlebars initialization here
   handlebarsSetup()
   initForm()
 }
